@@ -30,15 +30,12 @@ The dependent variable is measles cases, operationalized in the “measles” va
 
 
 
-
 **Table 1. Descriptive Statistics of All States Including Washington D.C.**
+
 |Variable|Observations|Mean|Std. Dev.|Min|Max|
 |---|---|---|---|---|---|
 |Vaccination|51|92.25|2.63|83.4|97.5|
 |Measles|51|0.04|0.09|0|0.45|
-
-
-
 
 
 Methods
@@ -49,6 +46,7 @@ My GIS map was created using ArcMap 10.51.1.  I used a shapefile for the US stat
 **Creating a Measles Rate**
 
 To evaluate the frequency of reported measles and the population by state, I created a new variable that calculated a rate where I used the formula "total cases / poplulation * 100,000. Those values with zero or no reported measles cases were simply coded as "no reported value" and kept in the analysis.  Once a rate was created, I used this to compare against the MMR vacciantion coverage percentage, by state. 
+
 
 
 
@@ -66,7 +64,8 @@ While I believe the findings indicate a weak but positive association between hi
 
 
 ![cdcgraph](https://github.com/kyodahl/measles/blob/master/cdc.jpg)
-**Figure 2 from CDC MMWR report, April 17, 2015 vol 64/No.14**
+
+**CDC MMWR report, April 17, 2015 vol 64/No.14**
 
 
 
