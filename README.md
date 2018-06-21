@@ -55,7 +55,7 @@ To evaluate the frequency of reported measles and the population by state, I cre
 Gallery
 ---
 
-![map](imagelinkhere)
+![map](https://github.com/kyodahl/measles/blob/master/map.jpg)
 
 
 
@@ -65,7 +65,7 @@ While I believe the findings indicate a weak but positive association between hi
 
 
 
-![cdcgraph](cdcimagelinkhere)
+![cdcgraph](https://github.com/kyodahl/measles/blob/master/cdc.jpg)
 **Figure 2 from CDC MMWR report, April 17, 2015 vol 64/No.14**
 
 
