@@ -26,8 +26,10 @@ To assess the relationship between MMR vaccination coverage and reported measles
 
 
 
-The dependent variable is measles cases, operationalized in the “measles” variable, which measures the measles cases per 100,000 persons by state.  Our independent variable is vaccination coverage, operationalized in the “vaccination” variable, which estimates the vaccination coverage in percentage for measles, mumps, and rubella (MMR) by state. These are both expressed as continuous variables in Table 1 below.
+Methods
+---
 
+The dependent variable is measles cases, operationalized in the “measles” variable, which measures the measles cases per 100,000 persons by state.  Our independent variable is vaccination coverage, operationalized in the “vaccination” variable, which estimates the vaccination coverage in percentage for measles, mumps, and rubella (MMR) by state. These are both expressed as continuous variables in Table 1 below.
 
 
 **Table 1. Descriptive Statistics of All States Including Washington D.C.**
@@ -37,9 +39,6 @@ The dependent variable is measles cases, operationalized in the “measles” va
 |Vaccination|51|92.25|2.63|83.4|97.5|
 |Measles|51|0.04|0.09|0|0.45|
 
-
-Methods
----
 
 My GIS map was created using ArcMap 10.51.1.  I used a shapefile for the US state map provided at https://gis.cancer.gov/tools/seerstat_bridge/fips_vars/. This used a projected coordinate system of “NAD_1983_Albers”, in feet.  Data for both variables was imported to ArcMap as continuous and later divided into quartiles through the classify function..
 
